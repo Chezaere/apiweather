@@ -5,7 +5,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from bs4 import BeautifulSoup
 
 
-TOKEN, API_KEY, URL_WEATHER_API = '6194811158:AAEO6BLzw-71rI8sb0aDa4ssq4cB2QTAvi0', '024231d957544541191bed7d32c258cd', 'https://api.openweathermap.org/data/2.5/weather'
+TOKEN, API_KEY, URL_WEATHER_API = 'TOKEN', '024231d957544541191bed7d32c258cd', 'https://api.openweathermap.org/data/2.5/weather'
 bot = telebot.TeleBot(TOKEN)
 EMOJI_CODE = {200: '⛈',
               201: '⛈',
